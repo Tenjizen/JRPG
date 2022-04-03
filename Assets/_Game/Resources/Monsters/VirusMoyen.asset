@@ -26,7 +26,7 @@ MonoBehaviour:
   _speed: 50
   _learnableMoves:
   - _moveBase: {fileID: 11400000, guid: 3cebc5b1b95199447ab0d48bbbc8c350, type: 2}
-    _level: 0
+    _Activated: 1
   - _moveBase: {fileID: 11400000, guid: 70d480090c1bcf14f93738a58d81479d, type: 2}
-    _level: 0
+    _Activated: 1
   _XPByLevel: b80b0000a00f00008813000070170000581b0000
