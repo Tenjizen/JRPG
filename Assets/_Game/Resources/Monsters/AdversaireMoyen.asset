@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Adversaire moyen
   _description: 
-  EnnemiSprite: {fileID: 21300000, guid: 179bd38ab997c7440844309bc52e708a, type: 3}
+  EnnemiSprite: {fileID: 21300000, guid: 33532ac6f7f22004dadc962e33dd0fec, type: 3}
   PlayerSprite: {fileID: 0}
   type1: 0
   type2: 0
