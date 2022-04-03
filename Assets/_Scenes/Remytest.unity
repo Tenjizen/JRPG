@@ -973,11 +973,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67128329}
   m_CullTransparentMesh: 1
---- !u!1 &73897485 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1381626360}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &81521372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2842,11 +2837,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2012013343805310504, guid: d1961541861d48d4daa62073eced8584, type: 3}
   m_PrefabInstance: {fileID: 1054461200}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &210541514 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995830574973336099, guid: 68d396af3201c814da803ee91ecf232a, type: 3}
-  m_PrefabInstance: {fileID: 60605651}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &214108820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3537,11 +3527,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265735908}
   m_CullTransparentMesh: 1
---- !u!1 &268408934 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995830574973336099, guid: 68d396af3201c814da803ee91ecf232a, type: 3}
-  m_PrefabInstance: {fileID: 2633005910802502926}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &268460105
 GameObject:
   m_ObjectHideFlags: 0
@@ -4460,11 +4445,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329535114}
   m_CullTransparentMesh: 1
---- !u!1 &329626086 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995830574973336099, guid: 68d396af3201c814da803ee91ecf232a, type: 3}
-  m_PrefabInstance: {fileID: 1557637305}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &332876445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5028,11 +5008,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
---- !u!1 &371648756 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1398473050}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &377129255
 GameObject:
   m_ObjectHideFlags: 0
@@ -5141,6 +5116,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 381863292}
+  - component: {fileID: 381863294}
+  - component: {fileID: 381863293}
   m_Layer: 5
   m_Name: TreePartner_1
   m_TagString: Untagged
@@ -5182,6 +5159,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &381863293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381863291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06d744b6c63d114ca5fc463cabe142e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monstersBase: {fileID: 0}
+  nFTNumber: 0
+--- !u!114 &381863294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381863291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4feee22a7b4132f4492e3c29d04a7cc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monstersBase: {fileID: 0}
+  nFTNumber: 0
 --- !u!1 &390193472
 GameObject:
   m_ObjectHideFlags: 0
@@ -5609,16 +5614,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435575498}
   m_CullTransparentMesh: 1
---- !u!1 &436269656 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1096941752}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &441902052 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1562550921}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &456969620
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,11 +5763,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Btn_DataCenter: {fileID: 1245559839}
   _textLevel: {fileID: 456969622}
---- !u!1 &457545224 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1435382339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &472076285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7187,7 +7177,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 534768224}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7284,6 +7274,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: a2af41761d40cc14883cd480bcf60595, type: 3}
   _btnImage: {fileID: 534768221}
   _objectMove: {fileID: 1254842469}
+  _NFT_Buy: {fileID: 1654425957}
+  _NFT_Sell: {fileID: 581085879}
 --- !u!1 &542156679
 GameObject:
   m_ObjectHideFlags: 0
@@ -7809,6 +7801,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _GameController: {fileID: 197559269}
   nFTSelected: {fileID: 0}
+  _NFT_ActionsDeactivatePlayer: {fileID: 1664814505}
+  _NFT_ActionsDesactivatePartner1: {fileID: 381863293}
+  _NFT_ActionsDesactivatePartner2: {fileID: 1055709353}
+  actionId: 0
 --- !u!1 &587217217
 GameObject:
   m_ObjectHideFlags: 0
@@ -8124,7 +8120,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 597241855}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnTree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8240,6 +8236,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: 25c18932f4417444a9b89c720d16f571, type: 3}
   _btnImage: {fileID: 597241851}
   _objectMove: {fileID: 1100398956}
+  _NFT_Buy: {fileID: 1654425957}
+  _NFT_Sell: {fileID: 581085879}
 --- !u!1 &613082685
 GameObject:
   m_ObjectHideFlags: 0
@@ -9606,11 +9604,6 @@ MonoBehaviour:
   originalMaterial: {fileID: 0}
   outLineMaterial: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &701652902 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 665751016}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &714894503
 GameObject:
   m_ObjectHideFlags: 0
@@ -10108,16 +10101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Btn_DataCenter: {fileID: 597241854}
   _textLevel: {fileID: 724531160}
---- !u!1 &731270943 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995830574973336099, guid: 68d396af3201c814da803ee91ecf232a, type: 3}
-  m_PrefabInstance: {fileID: 1639839916}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &731712929 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1819253579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &738117678
 GameObject:
   m_ObjectHideFlags: 0
@@ -13438,11 +13421,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962570255}
   m_CullTransparentMesh: 1
---- !u!1 &962713211 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 40880968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &980778627
 GameObject:
   m_ObjectHideFlags: 0
@@ -13878,11 +13856,6 @@ RectTransform:
   m_AnchoredPosition: {x: 252.00009, y: -181.00012}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1006503977 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1588480659}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012182685
 GameObject:
   m_ObjectHideFlags: 0
@@ -13917,7 +13890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -287, y: -4.89}
+  m_AnchoredPosition: {x: -286, y: -4.89}
   m_SizeDelta: {x: 91, y: 63.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012182687
@@ -13972,11 +13945,6 @@ Transform:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8725077266455086641, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
   m_PrefabInstance: {fileID: 364859103}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1033576772 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 1565060208}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1036800379 stripped
 Transform:
@@ -14353,6 +14321,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1055709352}
+  - component: {fileID: 1055709354}
+  - component: {fileID: 1055709353}
   m_Layer: 5
   m_Name: TreePartner_2
   m_TagString: Untagged
@@ -14394,11 +14364,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1055952222 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 5056836710356263080}
+--- !u!114 &1055709353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055709351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a683119f46947e45b5bf6db50ab94e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monstersBase: {fileID: 0}
+  nFTNumber: 0
+--- !u!114 &1055709354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055709351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd359694efac904fa988d7138328fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monstersBase: {fileID: 0}
+  nFTNumber: 0
 --- !u!1 &1062758128
 GameObject:
   m_ObjectHideFlags: 0
@@ -15933,7 +15926,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1108249647}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16011,6 +16004,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: 25c18932f4417444a9b89c720d16f571, type: 3}
   _btnImage: {fileID: 1108249645}
   _objectMove: {fileID: 1100398956}
+  _NFT_Buy: {fileID: 0}
+  _NFT_Sell: {fileID: 0}
 --- !u!114 &1108249648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17568,11 +17563,6 @@ MonoBehaviour:
   canSelected: 1
   canSelectedEnnemi: 0
   powerUsed: 0
---- !u!1 &1189504851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 472076285}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1202160348
 GameObject:
   m_ObjectHideFlags: 0
@@ -18384,7 +18374,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1245559840}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnTree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18500,6 +18490,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: 25c18932f4417444a9b89c720d16f571, type: 3}
   _btnImage: {fileID: 1245559836}
   _objectMove: {fileID: 1100398956}
+  _NFT_Buy: {fileID: 1654425957}
+  _NFT_Sell: {fileID: 581085879}
 --- !u!1 &1247133854
 GameObject:
   m_ObjectHideFlags: 0
@@ -18650,11 +18642,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254842469}
   m_CullTransparentMesh: 1
---- !u!1 &1258704818 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 275185464}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1268820837
 GameObject:
   m_ObjectHideFlags: 0
@@ -18959,11 +18946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IdManager: 0
---- !u!1 &1287954181 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8725077266455086642, guid: 18e3efb669b881042b75bea12f41e4d9, type: 3}
-  m_PrefabInstance: {fileID: 939494300}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1289321644
 GameObject:
   m_ObjectHideFlags: 0
@@ -23202,6 +23184,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _GameController: {fileID: 197559269}
   nFTSelected: {fileID: 0}
+  _NFT_ActionsActivatePlayer: {fileID: 1664814504}
+  _NFT_ActionsActivatePartner1: {fileID: 381863294}
+  _NFT_ActionsActivatePartner2: {fileID: 1055709354}
+  actionId: 0
 --- !u!1 &1656328522
 GameObject:
   m_ObjectHideFlags: 0
@@ -23362,6 +23348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664814503}
   - component: {fileID: 1664814504}
+  - component: {fileID: 1664814505}
   m_Layer: 5
   m_Name: TreePlayer
   m_TagString: Untagged
@@ -23421,27 +23408,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2a7a44379d8ea44b3180aaac65786a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NFT:
-  - {fileID: 516159639}
-  - {fileID: 268408934}
-  - {fileID: 731270943}
-  - {fileID: 210541514}
-  - {fileID: 329626086}
-  - {fileID: 1055952222}
-  - {fileID: 436269656}
-  - {fileID: 1258704818}
-  - {fileID: 371648756}
-  - {fileID: 1006503977}
-  - {fileID: 1189504851}
-  - {fileID: 701652902}
-  - {fileID: 1287954181}
-  - {fileID: 73897485}
-  - {fileID: 731712929}
-  - {fileID: 1033576772}
-  - {fileID: 457545224}
-  - {fileID: 441902052}
-  - {fileID: 962713211}
-  _NFT_Properties: {fileID: 0}
+  _monstersBase: {fileID: 0}
+  nFTNumber: 0
+--- !u!114 &1664814505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664814502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacff1e09191c80479d02d9826e38f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monstersBase: {fileID: 0}
+  nFTNumber: 0
 --- !u!1 &1668104412
 GameObject:
   m_ObjectHideFlags: 0
@@ -30423,7 +30405,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1739290229}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30501,6 +30483,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: 25c18932f4417444a9b89c720d16f571, type: 3}
   _btnImage: {fileID: 1739290227}
   _objectMove: {fileID: 1100398956}
+  _NFT_Buy: {fileID: 0}
+  _NFT_Sell: {fileID: 0}
 --- !u!114 &1739290230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33459,7 +33443,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1981527398}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnTree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33575,6 +33559,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: 25c18932f4417444a9b89c720d16f571, type: 3}
   _btnImage: {fileID: 1981527394}
   _objectMove: {fileID: 1100398956}
+  _NFT_Buy: {fileID: 1654425957}
+  _NFT_Sell: {fileID: 581085879}
 --- !u!1 &1989195872
 GameObject:
   m_ObjectHideFlags: 0
@@ -35300,7 +35286,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2129361122}
         m_TargetAssemblyTypeName: Btn_MenuProperties, Assembly-CSharp
-        m_MethodName: OnClickBtn
+        m_MethodName: OnClickBtnMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35397,6 +35383,8 @@ MonoBehaviour:
   _btnSpriteSelected: {fileID: 21300000, guid: a2af41761d40cc14883cd480bcf60595, type: 3}
   _btnImage: {fileID: 2129361119}
   _objectMove: {fileID: 1254842469}
+  _NFT_Buy: {fileID: 1654425957}
+  _NFT_Sell: {fileID: 581085879}
 --- !u!224 &2137861270 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1995830574973336096, guid: 68d396af3201c814da803ee91ecf232a, type: 3}

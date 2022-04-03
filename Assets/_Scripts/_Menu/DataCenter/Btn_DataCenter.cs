@@ -24,8 +24,8 @@ public class Btn_DataCenter : MonoBehaviour
     public void OnClickDataCenter()
     {
         dataCenter.SetActive(true);
-        _btnUpdate1.OnClickBtn();
-        _btnUpdate2.OnClickBtn();
+        _btnUpdate1.OnClickBtnMenu();
+        _btnUpdate2.OnClickBtnTree();
         btnPlayer.GetComponent<Btn_DataCenter>().OnClickTreeNFT();
         btnPlayer.GetComponent<Btn_DataCenter>().OnClickTreePlayer();
     }
@@ -37,14 +37,14 @@ public class Btn_DataCenter : MonoBehaviour
     {
         treeNFT.SetActive(true);
         options.SetActive(false);
-        _btnUpdate1.OnClickBtn();
+        _btnUpdate1.OnClickBtnTree();
         btnPlayer.GetComponent<Btn_DataCenter>().OnClickTreePlayer();
     }
     public void OnClickOptions()
     {
         treeNFT.SetActive(false);
         options.SetActive(true);
-        _btnUpdate1.OnClickBtn();
+        _btnUpdate1.OnClickBtnMenu();
     }
     public void OnClickTreePlayer()
     {

@@ -32,11 +32,6 @@ public class NFT_Update : MonoBehaviour
             Debug.Log("Niveau trop bas.");
     }
 
-    public void NFTAction()
-    {
-
-    }
-
     private void NFTUpdate(NFT_Properties _NFT_Properties, NFT_Description _NFT_Trading)
     {
         if (_NFT_Trading.nFTID == _NFT_Properties.nFTID)

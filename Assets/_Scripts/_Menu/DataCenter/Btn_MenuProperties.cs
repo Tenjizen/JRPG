@@ -11,6 +11,8 @@ public class Btn_MenuProperties : MonoBehaviour
     [SerializeField] Sprite _btnSpriteSelected;
     [SerializeField] Image _btnImage;
     [SerializeField] GameObject _objectMove;
+    [SerializeField] NFT_Buy _NFT_Buy;
+    [SerializeField] NFT_Sell _NFT_Sell;
     private bool _selected;
 
     private void Update()
@@ -27,9 +29,15 @@ public class Btn_MenuProperties : MonoBehaviour
         }
     }
 
-    public void OnClickBtn()
+    public void OnClickBtnMenu()
     {
         _btn_MenuManager.IdManager = _id;
+    }
+    public void OnClickBtnTree()
+    {
+        _btn_MenuManager.IdManager = _id;
+        _NFT_Buy.actionId = _id;
+        _NFT_Sell.actionId = _id;
     }
 
     private void BtnUpdate(Btn_MenuManager _Btn_MenuManager)
