@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NFT_ActionsDesactivatePartner1 : MonoBehaviour
 {
-    [SerializeField] Monster _Monster;
+    [SerializeField] MonstersBase _monstersBase;
     public int nFTNumber;
 
 
@@ -56,17 +56,14 @@ public class NFT_ActionsDesactivatePartner1 : MonoBehaviour
 
     private void NFTPower()
     {
-        _Monster.Base.LearnableMoves[4]._Activated = false;
         Debug.Log("Pouvoir désactivé");
     }
     private void NFTComp_1()
     {
-        _Monster.Base.LearnableMoves[2]._Activated = false;
         Debug.Log("Comp 1 désactivé");
     }
     private void NFTComp_2()
     {
-        _Monster.Base.LearnableMoves[3]._Activated = false;
         Debug.Log("Comp 2 désactivé");
     }
     private void NFTComp_3()
