@@ -11,7 +11,7 @@ public class NFT_LvRequiredText : MonoBehaviour
     private void Update()
     {
         if (_NFT_Properties.nFTUnlock == false)
-            _textLevel.text = "- Nv " + _NFT_Properties.lVRequired.ToString() + " -";
+            _textLevel.text = "| Nv " + _NFT_Properties.lVRequired.ToString() + " |";
         else
             _textLevel.text = "";
     }

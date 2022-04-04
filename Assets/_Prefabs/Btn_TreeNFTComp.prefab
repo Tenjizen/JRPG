@@ -33,11 +33,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4555617219829240168, guid: 0c341dc4dee15414dbc51d6da44e00dd, type: 3}
       propertyPath: m_text
-      value: Medium
+      value: Coming soon
       objectReference: {fileID: 0}
     - target: {fileID: 4555617219980003478, guid: 0c341dc4dee15414dbc51d6da44e00dd, type: 3}
       propertyPath: m_text
-      value: Medium description
+      value: Coming soon
       objectReference: {fileID: 0}
     - target: {fileID: 4555617220360676308, guid: 0c341dc4dee15414dbc51d6da44e00dd, type: 3}
       propertyPath: m_AnchoredPosition.y

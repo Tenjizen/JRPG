@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isVirus: 1
   _name: Pierre
-  moneyAfterBattle: 0
+  moneyAfterBattle: 20
   _ennemi: {fileID: 8429885589739097536}
   _dialog:
     _lines:

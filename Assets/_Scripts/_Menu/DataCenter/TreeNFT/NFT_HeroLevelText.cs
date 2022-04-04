@@ -10,6 +10,6 @@ public class NFT_HeroLevelText : MonoBehaviour
 
     private void Update()
     {
-        _textLevel.text = "- Level "+ _Btn_DataCenter._Monster._level.ToString() + " -";
+        _textLevel.text = "| Level "+ _Btn_DataCenter._Monster._level.ToString() + " |";
     }
 }
