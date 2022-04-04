@@ -28,7 +28,7 @@ public class Monster
         Moves = new List<Move>();
         foreach (var move in Base.LearnableMoves)
         {
-            if (move.Level <= Level)
+            if (move._Activated)
                 Moves.Add(new Move(move.Base));
 
             if (Moves.Count >= 5)
