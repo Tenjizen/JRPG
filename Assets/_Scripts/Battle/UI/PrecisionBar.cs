@@ -69,7 +69,7 @@ public class PrecisionBar : MonoBehaviour
         canClickPower = true;
         _state = fillAmount.Idle;
         progress.fillAmount = 0;
-        _targetPos.x = -32;
+        _targetPos.x = -37;
         barre.transform.position = _targetPos;
         barre.color = Color.white;
         barreSplit = 0;
