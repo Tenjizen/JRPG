@@ -138,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 4555617221541888957, guid: 0c341dc4dee15414dbc51d6da44e00dd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 20222e9e58cba4a429c598b0599d5eca, type: 3}
+      objectReference: {fileID: 21300000, guid: a0092bca48daa3f4b9b1b8c84e2b988b, type: 3}
     - target: {fileID: 4555617221541888958, guid: 0c341dc4dee15414dbc51d6da44e00dd, type: 3}
       propertyPath: _NFT_Trading
       value: 
