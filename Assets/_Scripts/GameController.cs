@@ -23,6 +23,13 @@ public class GameController : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        foreach (var item in _battleSystem._playerUnits)
+        {
+            item.thisMonster.Base.LearnableMoves[2]._Activated = false;
+            item.thisMonster.Base.LearnableMoves[3]._Activated = false;
+            item.thisMonster.Base.LearnableMoves[4]._Activated = false;
+
+        }
     }
     private void Start()
     {

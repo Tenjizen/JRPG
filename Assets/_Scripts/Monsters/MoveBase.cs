@@ -54,7 +54,7 @@ public class MoveBase : ScriptableObject
 
     public enum MoveCategory
     {
-        Physical, Special, Status
+       Physical, Special, Status
     }
     public enum MoveTarget
     {

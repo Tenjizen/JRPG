@@ -6,7 +6,7 @@ using DG.Tweening;
 
 public class BattleUnit : MonoBehaviour
 {
-
+    public Monster thisMonster;
     public bool isPlayerUnit;
     public bool isVirus;
     [SerializeField] BattleHud _hud;

@@ -7,6 +7,7 @@ using DG.Tweening;
 
 public class MainMenu : MonoBehaviour
 {
+
     public Image imageFade;
     public GameObject accueil;
     public GameObject parameter;
@@ -46,7 +47,7 @@ public class MainMenu : MonoBehaviour
     void FadePlayComplete()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
+      
     }
 
     public void OnClickParameter()
