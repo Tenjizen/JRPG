@@ -5171,10 +5171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06d744b6c63d114ca5fc463cabe142e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Monster:
-    _base: {fileID: 11400000, guid: c82f5d1c1ac3cd94a86c3fac4cef1ab6, type: 2}
-    _level: 0
-    Exp: 0
+  _monstersBase: {fileID: 0}
   nFTNumber: 0
 --- !u!114 &381863294
 MonoBehaviour:
@@ -5188,10 +5185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4feee22a7b4132f4492e3c29d04a7cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Monster:
-    _base: {fileID: 11400000, guid: c82f5d1c1ac3cd94a86c3fac4cef1ab6, type: 2}
-    _level: 0
-    Exp: 0
+  _monstersBase: {fileID: 0}
   nFTNumber: 0
 --- !u!1 &390193472
 GameObject:
@@ -14382,10 +14376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a683119f46947e45b5bf6db50ab94e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Monster:
-    _base: {fileID: 11400000, guid: bed7e88f10ee6e243baee339190932cb, type: 2}
-    _level: 0
-    Exp: 0
+  _monstersBase: {fileID: 0}
   nFTNumber: 0
 --- !u!114 &1055709354
 MonoBehaviour:
@@ -14399,10 +14390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd359694efac904fa988d7138328fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Monster:
-    _base: {fileID: 11400000, guid: bed7e88f10ee6e243baee339190932cb, type: 2}
-    _level: 0
-    Exp: 0
+  _monstersBase: {fileID: 0}
   nFTNumber: 0
 --- !u!1 &1062758128
 GameObject:
@@ -23420,10 +23408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2a7a44379d8ea44b3180aaac65786a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Monster:
-    _base: {fileID: 11400000, guid: c7015001b72808f43a38702da4015460, type: 2}
-    _level: 0
-    Exp: 0
+  _monstersBase: {fileID: 0}
   nFTNumber: 0
 --- !u!114 &1664814505
 MonoBehaviour:
@@ -23437,10 +23422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eacff1e09191c80479d02d9826e38f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Monster:
-    _base: {fileID: 11400000, guid: c7015001b72808f43a38702da4015460, type: 2}
-    _level: 0
-    Exp: 0
+  _monstersBase: {fileID: 0}
   nFTNumber: 0
 --- !u!1 &1668104412
 GameObject:

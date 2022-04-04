@@ -44,9 +44,10 @@ public class MonstersBase : ScriptableObject
 public class LearnableMove
 {
     [SerializeField] MoveBase _moveBase;
-    public bool _Activated;
+    [SerializeField] int _level;
 
     public MoveBase Base{get { return _moveBase; }}
+    public int Level{get { return _level; }}
 
 }
 
